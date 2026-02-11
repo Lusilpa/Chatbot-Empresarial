@@ -68,19 +68,16 @@ O funcionamento do assistente segue um fluxo linear de processamento de dados, d
 Para rodar este assistente localmente, siga os passos abaixo:
 
 1. **Clone o repositório:**
-
 \`\`\`bash
-git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
 \`\`\`
 
-2. **Instale as dependências**
-
+2. **Instale as dependências:**
 \`\`\`bash
 pip install pandas streamlit nltk scikit-learn unidecode
 \`\`\`
 
-3. **Inicie a aplicação**
-
+3. **Inicie a aplicação:**
 \`\`\`bash
 streamlit run app.py
 \`\`\`

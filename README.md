@@ -39,6 +39,13 @@ O "coração" do chatbot utiliza técnicas de inteligência artificial clássica
 - Scikit-learn (TF-IDF): Implementa o algoritmo Term Frequency-Inverse Document Frequency. Ele transforma o texto em vetores numéricos, dando pesos maiores para palavras raras e importantes (ex: "FGTS", "Fayol") e pesos menores para palavras comuns.
 - Similaridade de Cosseno: Técnica matemática utilizada para calcular o "ângulo" entre o vetor da pergunta do usuário e os vetores da base de dados. Quanto menor o ângulo, maior a similaridade e, portanto, mais precisa é a resposta entregue.
 
+# ⚙️ Metodologia e Fluxo de Dados
+O funcionamento do assistente segue um fluxo linear de processamento de dados, desde a entrada da pergunta do colaborador até a entrega da resposta fundamentada:
+- Entrada: O usuário digita uma dúvida na interface Streamlit.
+- Tratamento: O texto passa por limpeza (unidecode), tokenização e filtragem (NLTK).
+- Vetorização: A pergunta tratada é convertida em um vetor numérico pelo modelo TF-IDF treinado no dataset.csv.
+- Cálculo: A Similaridade de Cosseno identifica a linha do dataset com a maior pontuação de equivalência.
+- Saída: Se a similaridade atingir o threshold mínimo, a resposta é exibida; caso contrário, o bot solicita mais informações.
 
 # 🗃️ Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018)
 Todos os arquivos deste repositório utilizam dados sobre a Teoria dos Sistemas da Administração (TSA) e Teoria Geral dos Sistemas (TGS), reforçando o compromisso do autor sobre os dados privados das empresas que inspiraram o projeto.

@@ -65,8 +65,6 @@ O funcionamento do assistente segue um fluxo linear de processamento de dados, d
 
 # 🚀 Como executar o projeto
 
-# 🚀 Como executar o projeto
-
 Para rodar este assistente localmente, siga os passos abaixo:
 
 1. **Clone o repositório:**
@@ -82,6 +80,15 @@ pip install pandas streamlit nltk scikit-learn unidecode
 3. **Inicie a aplicação:**
 ```bash
 streamlit run app.py
+```
+
+# 📂 Estrutura de Arquivos
+
+```markdown
+```Plaintext
+├── dataset.csv          # Base de conhecimento (Perguntas/Respostas sobre TGS e TSA)
+├── app.py               # Script principal com lógica NLP e Interface
+└── README.md            # Documentação do projeto
 ```
 
 # 🗃️ Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018)

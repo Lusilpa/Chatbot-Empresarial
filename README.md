@@ -85,7 +85,7 @@ streamlit run app.py
 # 📂 Estrutura de Arquivos
 
 ```markdown
-```Plaintext
+Plaintext
 ├── dataset.csv          # Base de conhecimento (Perguntas/Respostas sobre TGS e TSA)
 ├── app.py               # Script principal com lógica NLP e Interface
 └── README.md            # Documentação do projeto

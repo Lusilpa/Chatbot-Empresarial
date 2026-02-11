@@ -74,7 +74,7 @@ git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://githu
 
 2. **Instalando dependências:**
 ```bash
-pip install pandas streamlit nltk scikit-learn unidecode
+pip install -r requirements.txt
 ```
 
 3. **Inicie a aplicação:**
@@ -87,8 +87,9 @@ streamlit run app.py
 ```markdown
 Plaintext
 ├── dataset.csv          # Base de conhecimento (Perguntas/Respostas sobre TGS e TSA)
-├── app.py               # Script principal com lógica NLP e Interface
-└── README.md            # Documentação do projeto
+├── processador.py       # Script principal com lógica NLP e Interface
+├── README.md            # Documentação do projeto
+└── requirements.txt     # Dependencias do Sistema
 ```
 
 # 🗃️ Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018)

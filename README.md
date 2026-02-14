@@ -6,6 +6,8 @@ Chatbot de suporte ao RH desenvolvido como base para o TCA para o curso de Jovem
 
 🧑‍💻 **Fase: projeto em desenvolvimento - Desenvolvedor: Luan Palma**
 
+**Este fragmento faz parte dos Projeto Lhumos - Soluções para administração de empresas!**
+
 # 📈 Capítulo 1 - Objetivos
 ## 📌 Objetivo Geral
 Criar uma aplicação real de Processamento de Linguagem Natural no contexto do departamento de Recursos Humanos, utilizando Python e Streamlit.
@@ -79,7 +81,7 @@ pip install -r requirements.txt
 
 3. **Inicie a aplicação:**
 ```bash
-streamlit run app.py
+streamlit run processador.py
 ```
 
 # 📂 Estrutura de Arquivos
@@ -95,7 +97,3 @@ Plaintext
 # 🗃️ Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018)
 
 Todos os arquivos deste repositório utilizam dados sobre a Teoria dos Sistemas da Administração (TSA) e Teoria Geral dos Sistemas (TGS), reforçando o compromisso do autor sobre os dados privados das empresas que inspiraram o projeto.
-
-
-
-
